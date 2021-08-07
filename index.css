@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body,
+html {
+    background-color: #333;
+    color: rgb(209, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /* max-width: 50vh; */
+    text-align: center;
+}
+.rate-p {
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    margin: 10px;
+    font-weight: bold;
+}
+.card {
+    border: 2px solid black;
+    width: 300px;
+    min-height: 100px;
+    height: 500px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.search-container {
+    display: inline;
+}
+
+.search-container button {
+    width: 10%;
+    background-color: rgb(29, 29, 29);
+    color: rgb(241, 241, 241);
+    border: none;
+    border-bottom: 1px solid rgb(71, 71, 71);
+    height: 30px;
+    font-weight: bold;
+    display: inline;
+    transition: .3s ease;
+}
+
+.search-container button:hover {
+    color: white;
+    background-color: rgb(22, 22, 22);
+}
+
+.search-input {
+    display: inline;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(29, 29, 29);
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid rgb(71, 71, 71);
+    width: 89%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+}
+
+.description {
+    padding: 10px;
+}
